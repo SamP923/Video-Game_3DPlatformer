@@ -11,7 +11,12 @@ public class playerController : MonoBehaviour {
 
 	Rigidbody playerRB;
 	bool canJump;
-	bool isGrounded = true;
+	bool isGrounded = true; 
+
+	public AudioSource coinSound;
+	public AudioSource hurtSound;
+	public AudioSource goalSound;
+
 	// Use this for initialization
 	void Start () {
 		walkSpeed = 5f;
@@ -69,7 +74,23 @@ public class playerController : MonoBehaviour {
 		isGrounded = true;
 	}
 
-	void OnTriggerEnter(Collider other){
-		Destroy(other.gameObject);
+	void OnTriggerEnter (Collider other)
+	{
+		if (other.CompareTag("Coin")) {
+			coinSound.Play ();
+			Destroy (other.gameObject);
+
+			GameManager.instance.IncreaseScore(1);
+		}
+
+		if (other.CompareTag ("Enemy")) {
+			hurtSound.Play ();
+			GameManager.instance.DecreaseLives();
+		}
+
+		if (other.CompareTag ("Goal")) {
+			goalSound.Play();
+			GameManager.instance.IncreaseLevel();
+		}
 	}
 }
