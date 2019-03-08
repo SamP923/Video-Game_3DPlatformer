@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
 	//number of levels
 	public int highestLevel = 2;
 
-	//HUDManager hud; 
+	HUDManager hud; 
 
 	//instance of the GM that can be accessed from anywhere
 	public static GameManager instance;
@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour {
 		//make sure that is equal to the current object
 		else if (instance != this) {
 
-			//instance.hud = FindObjectOfType<HUDManager> ();
+			instance.hud = FindObjectOfType<HUDManager> ();
 
 			//we do not need one so destroy it
 			Destroy(gameObject);
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour {
 		//dont destroy this object when changing scenes
 		DontDestroyOnLoad(gameObject);
 
-		//hud = FindObjectOfType<HUDManager> ();
+		hud = FindObjectOfType<HUDManager> ();
 	}	
 
 	//increase player score
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour {
 		}
 
 		//update score text
-		//hud.ResetHud ();
+		hud.ResetHud ();
 	}
 
 	//decrease lives by 1
@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour {
 		lives--;
 
 		//update lives text
-		//hud.ResetHud ();
+		hud.ResetHud ();
 
 		Debug.Log("num lives: " + lives);
 		if (lives == 0) {
@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour {
 		currentLevel = 1;
 
 		//update score and lives text
-		//hud.ResetHud ();
+		hud.ResetHud ();
 
 		//load first level
 		SceneManager.LoadScene("level1");
