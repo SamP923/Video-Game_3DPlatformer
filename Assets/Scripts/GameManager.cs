@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour {
 
 		Debug.Log("num lives: " + lives);
 		if (lives == 0) {
-			ResetGame ();
+			GameOver ();
 		}
 
 	}
@@ -110,5 +110,9 @@ public class GameManager : MonoBehaviour {
 
 		//load next level
 		SceneManager.LoadScene("level"+currentLevel);
+	}
+
+	public void GameOver(){
+		SceneManager.LoadScene("GameOver");
 	}
 }
