@@ -1,4 +1,4 @@
-﻿﻿using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +15,6 @@ public class HUDManager : MonoBehaviour {
 	
 		scoreLabel = GameObject.Find ("ScoreText").GetComponent<Text> ();
 		livesLabel = GameObject.Find ("LivesText").GetComponent<Text> ();
-
 	}
 
 	// Use this for initialization

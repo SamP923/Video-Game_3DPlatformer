@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour {
 	public int currentLevel = 1;
 
 	//number of levels
-	public int highestLevel = 2;
+	public int highestLevel = 3;
 
 	HUDManager hud; 
 
@@ -107,7 +107,6 @@ public class GameManager : MonoBehaviour {
 		} else {
 			currentLevel = 1;
 		}
-
 		//load next level
 		SceneManager.LoadScene("level"+currentLevel);
 	}

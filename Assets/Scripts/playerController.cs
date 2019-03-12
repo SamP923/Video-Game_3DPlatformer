@@ -90,6 +90,7 @@ public class playerController : MonoBehaviour {
 
 		if (other.CompareTag ("Goal")) {
 			goalSound.Play();
+			Debug.Log("lol");
 			GameManager.instance.IncreaseLevel();
 		}
 	}
