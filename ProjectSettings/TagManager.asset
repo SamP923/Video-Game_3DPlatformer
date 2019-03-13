@@ -7,6 +7,7 @@ TagManager:
   - Coin
   - Enemy
   - Goal
+  - Fallout
   layers:
   - Default
   - TransparentFX

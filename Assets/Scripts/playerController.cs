@@ -76,22 +76,26 @@ public class playerController : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (other.CompareTag("Coin")) {
+		if (other.CompareTag ("Coin")) {
 			coinSound.Play ();
 			Destroy (other.gameObject);
 
-			GameManager.instance.IncreaseScore(1);
+			GameManager.instance.IncreaseScore (1);
 		}
 
 		if (other.CompareTag ("Enemy")) {
 			hurtSound.Play ();
-			GameManager.instance.DecreaseLives();
+			GameManager.instance.DecreaseLives ();
 		}
 
 		if (other.CompareTag ("Goal")) {
-			goalSound.Play();
-			Debug.Log("lol");
-			GameManager.instance.IncreaseLevel();
+			goalSound.Play ();
+			Debug.Log ("lol");
+			GameManager.instance.IncreaseLevel ();
 		}
+		if (other.CompareTag ("Fallout")) {
+			GameManager.instance.GameOver();
+		}
+
 	}
 }
