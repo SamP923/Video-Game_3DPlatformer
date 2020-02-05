@@ -11,9 +11,9 @@ You can download and play the game by downloading the zip file <code>3DPlatforme
 
 Features 3 levels, a beginning home screen, and a game over screen.
 
-<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/homescreen.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/gameplay.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/gameplay.PNG" width = "250"><br><br>
+<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/homescreen.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/gameplay.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/gameplay.PNG" width = "250"><br><br>
 
 Sample Level Designs:
-<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/level2_topview.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/level2_sideview.PNG" width = "250"><br>
+<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level2_topview.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level2_sideview.PNG" width = "250"><br>
 
-<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/level1.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/3DPlatformerScreenshots/level3.PNG" width = "250">
+<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level1.PNG" width = "250"><img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level3.PNG" width = "250">
