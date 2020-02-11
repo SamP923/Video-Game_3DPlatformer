@@ -11,9 +11,17 @@ You can download and play the game by downloading the zip file <code>3DPlatforme
 
 Features 3 levels, a beginning home screen, and a game over screen.
 
-<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/homescreen.PNG" height = "225">     <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/gameplay.PNG" height= "225">      <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/gameover.PNG" height= "225"><br><br>
+<img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/homescreen.PNG" height = "225">     <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/gameplay.PNG" height= "225">      <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/gameover.PNG" width= "399"><br><br>
 
 Sample Level Designs:<br>
 <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level2_topview.PNG" width = "250">     <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level2_sideview.PNG" height = "250"><br>
 
 <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level1.PNG" width = "250">     <img src = "https://raw.githubusercontent.com/SamP923/Video-Game_3DPlatformer/master/3DPlatformerScreenshots/level3.PNG" width = "250">
+
+### Expansions
+In the future, I would like to expand this project to make a full-fleshed game.
+1. Add more levels with a progression (and increased difficulty), instead of looping through the three current ones.
+2. Create a level-picker from the home menu.
+3. Create a background or depth for when the player falls off of the main platform.
+4. Add a screen that explains movement and controls (and also make the exploitation of the movement system more obvious)
+5. Add a storyline for the cube adventurer
