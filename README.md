@@ -25,3 +25,4 @@ In the future, I would like to expand this project to make a full-fleshed game.
 3. Create a background or depth for when the player falls off of the main platform.
 4. Add a screen that explains movement and controls (and also make the exploitation of the movement system more obvious)
 5. Add a storyline for the cube adventurer
+6. Allow the user to control the view of the camera using the mouse 
